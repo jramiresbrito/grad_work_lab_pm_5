@@ -8,11 +8,24 @@ Disclaimer: This project uses "non standard" Ruby conventions in order to "achie
 <hr>
 
 ### The following patterns were implemented
+
+* MVC Pattern
+* Repository Pattern
 <hr>
 
 ### How to use this app
+### How to use this app
+* Download the project and run through `ruby app.rb`
+* Login using the credentials
+  * login: `joao`
+  * pwd: `123456`
+
 <hr>
 
 ### Features
+* Employees Management
+* Session
+* Basic Password encryptation
+* Data persistance using CSV files
 <hr>
 Ruby version: 2.6.6
