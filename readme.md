@@ -13,7 +13,12 @@ Disclaimer: This project uses "non standard" Ruby conventions in order to "achie
 * Repository Pattern
 <hr>
 
-### How to use this app
+### DOCS
+You can find the docs under <code>doc</code> folder.  
+The best way to visualize it is to serve using a server like [VsCode Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+<hr>
+
 ### How to use this app
 * Download the project and run through `ruby app.rb`
 * Login using the credentials
