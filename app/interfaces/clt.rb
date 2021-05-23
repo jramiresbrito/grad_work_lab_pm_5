@@ -1,5 +1,5 @@
 module CLT
-  def extra_time_value
+  def bonus_modifier_value
     raise 'Not implemented'
   end
 
