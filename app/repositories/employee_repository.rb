@@ -10,8 +10,9 @@ class EmployeeRepository < BaseRepository
     row[:bonus_modifier] = row[:bonus_modifier].to_i
 
     if row[:ocupation] == LEVELABLE::OCUPATIONS[:junior] || row[:ocupation] == LEVELABLE::OCUPATIONS[:senior]
-      Analyst.new(row)
+      return Analyst.new(row)
     end
-    Manager.new(row) if row[:ocupation] == LEVELABLE::OCUPATIONS[:manager]
+
+    return Manager.new(row) if row[:ocupation] == LEVELABLE::OCUPATIONS[:manager]
   end
 end
